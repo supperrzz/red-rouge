@@ -64,7 +64,7 @@ export default Header;
 const Menus = () => {
   return (
     <ul className="navigation clearfix d-none d-lg-flex">
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <a href="#">Home</a>
         <ul>
           <Home />
@@ -72,8 +72,8 @@ const Menus = () => {
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
         </div>
-      </li>
-      <li className="dropdown">
+      </li> */}
+      {/* <li className="dropdown">
         <a href="#">pages</a>
         <ul>
           <About />
@@ -100,11 +100,11 @@ const Menus = () => {
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
         </div>
-      </li>
+      </li> */}
       <li className="dropdown">
         <a href="#">blog</a>
         <ul>
-          <Blog />
+          {/* <Blog /> */}
         </ul>
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
@@ -113,7 +113,7 @@ const Menus = () => {
       <li className="dropdown">
         <a href="#">shop</a>
         <ul>
-          <Shop />
+          {/* <Shop /> */}
         </ul>
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
@@ -158,11 +158,13 @@ const DefaultHeader = ({
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img
+                  <img src="http://fpoimg.com/50x50?text=Logo" />
+                  {/* <img
                     src="assets/images/logos/color-logo.png"
                     alt="Logo"
                     title="Logo"
-                  />
+                    width={75}
+                  /> */}
                 </Link>
               </div>
             </div>
@@ -184,11 +186,13 @@ const DefaultHeader = ({
                   </button>
                   <div className="mobile-logo p-15 m-auto">
                     <Link href="/">
-                      <img
+                      <img src="http://fpoimg.com/50x50?text=Logo" />
+                      {/* <img
                         src="assets/images/logos/logo.png"
                         alt="Logo"
                         title="Logo"
-                      />
+                        width={75}
+                      /> */}
                     </Link>
                   </div>
                 </div>
@@ -278,11 +282,13 @@ const Header1 = ({
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img
+                  <img src="http://fpoimg.com/50x50?text=Logo" />
+                  {/* <img
                     src="assets/images/logos/logo.png"
                     alt="Logo"
                     title="Logo"
-                  />
+                    width={75}
+                  /> */}
                 </Link>
               </div>
             </div>
@@ -304,11 +310,13 @@ const Header1 = ({
                   </button>
                   <div className="mobile-logo p-15 m-auto">
                     <Link href="/">
-                      <img
+                      <img src="http://fpoimg.com/50x50?text=Logo" />
+                      {/* <img
                         src="assets/images/logos/logo.png"
                         alt="Logo"
                         title="Logo"
-                      />
+                        width={75}
+                      /> */}
                     </Link>
                   </div>
                 </div>
@@ -383,11 +391,13 @@ const Header2 = ({
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img
+                  <img src="http://fpoimg.com/50x50?text=Logo" />
+                  {/* <img
                     src="assets/images/logos/white-logo.png"
                     alt="Logo"
                     title="Logo"
-                  />
+                    width={75}
+                  /> */}
                 </Link>
               </div>
             </div>
@@ -409,11 +419,13 @@ const Header2 = ({
                   </button>
                   <div className="mobile-logo p-15 m-auto">
                     <Link href="/">
-                      <img
+                      <img src="http://fpoimg.com/50x50?text=Logo" />
+                      {/* <img
                         src="assets/images/logos/white-logo.png"
                         alt="Logo"
                         title="Logo"
-                      />
+                        width={75}
+                      /> */}
                     </Link>
                   </div>
                 </div>
@@ -487,11 +499,13 @@ const Header3 = ({
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img
+                  <img src="http://fpoimg.com/50x50?text=Logo" />
+                  {/* <img
                     src="assets/images/logos/white-logo.png"
                     alt="Logo"
                     title="Logo"
-                  />
+                    width={75}
+                  /> */}
                 </Link>
               </div>
             </div>
@@ -513,11 +527,13 @@ const Header3 = ({
                   </button>
                   <div className="mobile-logo p-15 m-auto">
                     <Link href="/">
-                      <img
+                      <img src="http://fpoimg.com/50x50?text=Logo" />
+                      {/* <img
                         src="assets/images/logos/white-logo.png"
                         alt="Logo"
                         title="Logo"
-                      />
+                        width={75}
+                      /> */}
                     </Link>
                   </div>
                 </div>
