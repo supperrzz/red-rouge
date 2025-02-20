@@ -41,7 +41,7 @@
 .slider-single-item-1,
 .slider-single-item-2,
 .slider-single-item-3 {
-  background: url("../public/assets/images/slider/slider1.jpg");
+  background: url("");
   background-size: cover;
   position: relative;
 }

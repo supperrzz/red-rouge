@@ -38,7 +38,7 @@ const Index4 = () => {
                 <Slider {...hero3Slider}>
                     <div
                         className="slider-single-item slider-single-item-1"
-                        style={{ backgroundImage: "url(assets/images/slider/slider1.jpg)" }}
+                        style={{ backgroundImage: "url()" }}
                     >
                         <div className="container">
                             <span className="bg-text">Beauty & Wellness</span>
@@ -60,7 +60,7 @@ const Index4 = () => {
                     </div>
                     <div
                         className="slider-single-item slider-single-item-2"
-                        style={{ backgroundImage: "url(assets/images/slider/slider2.jpg)" }}
+                        style={{ backgroundImage: "url()" }}
                     >
                         <div className="container">
                             <span className="bg-text">Facial Services</span>
@@ -82,7 +82,7 @@ const Index4 = () => {
                     </div>
                     <div
                         className="slider-single-item slider-single-item-3"
-                        style={{ backgroundImage: "url(assets/images/slider/slider3.jpg)" }}
+                        style={{ backgroundImage: "url()" }}
                     >
                         <div className="container">
                             <span className="bg-text">Medical Services</span>
@@ -182,7 +182,7 @@ const Index4 = () => {
             
             {/* Video Section Start */}
             <div className="video-section-two wow fadeInUp delay-0-2s"
-                style={{ backgroundImage: "url(assets/images/video/service-page-video.jpg)" }}>
+                style={{ backgroundImage: "url(-video.jpg)" }}>
                 <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" 
                     className="mfp-iframe video-play">
                     <i className="fas fa-play" />
