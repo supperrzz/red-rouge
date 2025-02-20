@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&display=swap');
 /*----------------------------------------------------------------------
     Template Name: Lezar - Beauty Salon HTML Template
     Template URI: https://webtend.net/demo/html/lezar/
@@ -7,6 +8,13 @@
     Version: 1.0
 
     Note: This is Main Style CSS File. */
+
+@font-face {
+    font-family: 'Blacksword';
+    src: url('../fonts/Blacksword.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 /*----------------------------------------------------------------------
 	CSS INDEX
 	----------------------
@@ -83,7 +91,7 @@ a:hover {
 }
 
 .home-two a:hover {
-  color: #799aa1;
+  color: #960a05;
 }
 
 h1,
@@ -192,7 +200,7 @@ textarea,
 .nice-select .current {
   font-weight: 600;
   color: #242424;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cagliostro", sans-serif;
 }
 .nice-select .list {
   width: 100%;
@@ -415,7 +423,7 @@ input[type="radio"] {
 
 .home-two .section-title .sub-title {
   font-weight: 600;
-  color: #799aa1;
+  color: #960a05;
 }
 
 .home-two input,
@@ -423,7 +431,7 @@ input[type="radio"] {
 .home-two textarea,
 .home-two .nice-select,
 .home-two .form-control {
-  border-color: #799aa1;
+  border-color: #960a05;
 }
 
 .bg-text {
@@ -560,8 +568,8 @@ a.theme-btn.style-two:hover {
 .theme-btn.style-three,
 a.theme-btn.style-three {
   color: white;
-  background: #799aa1;
-  border-color: #799aa1;
+  background: #960a05;
+  border-color: #960a05;
 }
 .theme-btn.style-three:after,
 .theme-btn.style-three:before,
@@ -571,7 +579,7 @@ a.theme-btn.style-three:before {
 }
 .theme-btn.style-three:hover,
 a.theme-btn.style-three:hover {
-  color: #799aa1;
+  color: #960a05;
 }
 .theme-btn.style-four,
 a.theme-btn.style-four {
@@ -583,7 +591,7 @@ a.theme-btn.style-four {
 .theme-btn.style-four:before,
 a.theme-btn.style-four:after,
 a.theme-btn.style-four:before {
-  background: #799aa1;
+  background: #960a05;
 }
 .theme-btn.style-four:hover,
 a.theme-btn.style-four:hover {
@@ -923,7 +931,7 @@ a.theme-btn.style-seven:hover {
   line-height: 115px;
   border-radius: 50%;
   text-align: center;
-  color: #799aa1;
+  color: #960a05;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -1009,7 +1017,7 @@ a.theme-btn.style-seven:hover {
 }
 
 .bg-green {
-  background-color: #799aa1;
+  background-color: #960a05;
 }
 
 .bg-yellow {
@@ -1079,7 +1087,7 @@ h6,
 }
 
 .bg-text {
-  font-family: "Dancing Script", cursive;
+  font-family: "Blacksword", cursive;
   text-transform: capitalize;
   color: rgba(0, 0, 0, 0.05);
 }
@@ -4361,7 +4369,7 @@ h6,
   }
 }
 .header-two.fixed-header .header-upper {
-  background: #799aa1;
+  background: #960a05;
 }
 
 /*Header Three*/
@@ -5721,7 +5729,7 @@ h6,
   color: white;
   width: 60px;
   height: 60px;
-  background: #799aa1;
+  background: #960a05;
   line-height: 60px;
   border-radius: 50%;
   text-align: center;
@@ -6293,12 +6301,12 @@ h6,
   background: white;
   line-height: 53px;
   text-align: center;
-  color: #799aa1;
+  color: #960a05;
   border: 1px solid rgba(121, 154, 161, 0.2);
 }
 .feedback-arrows button:hover {
   color: white;
-  background: #799aa1;
+  background: #960a05;
 }
 .feedback-arrows button:first-child {
   margin-right: 10px;
@@ -6346,7 +6354,7 @@ h6,
   -o-transition: 0.2s;
   transition: 0.2s;
   position: absolute;
-  background: #799aa1;
+  background: #960a05;
 }
 .feedback-item:before,
 .feedback-item .for-border:before {
@@ -6421,7 +6429,7 @@ h6,
 }
 .feedback-item .quote-rating > i {
   font-size: 55px;
-  color: #799aa1;
+  color: #960a05;
 }
 .feedback-item .quote-rating .rating {
   font-size: 20px;
@@ -6441,7 +6449,7 @@ h6,
 }
 .feedback-item .quote-rating .rating span {
   font-weight: 600;
-  color: #799aa1;
+  color: #960a05;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -6505,7 +6513,7 @@ h6,
   border-radius: 0;
   overflow: inherit;
   position: absolute;
-  background: #799aa1;
+  background: #960a05;
 }
 .feedback-progress .progress span::before {
   content: "";
@@ -6517,7 +6525,7 @@ h6,
   transform: translate(50%, -50%);
   width: 25px;
   height: 25px;
-  background: #799aa1;
+  background: #960a05;
   line-height: 25px;
   border-radius: 50%;
   text-align: center;
@@ -8159,11 +8167,11 @@ h6,
 }
 
 .home-two .offer-item i {
-  color: #799aa1;
+  color: #960a05;
 }
 
 .home-two .offer-item:hover {
-  background: #799aa1;
+  background: #960a05;
 }
 .home-two .offer-item:hover i {
   color: white;
@@ -8282,7 +8290,7 @@ h6,
 
 .home-two .pricing-item > i,
 .home-two .pricing-title .price {
-  color: #799aa1;
+  color: #960a05;
 }
 
 /* Pricing Style two */
@@ -9986,7 +9994,7 @@ h6,
 }
 .payment-method ul .custom-control-label i {
   margin-left: 10px;
-  color: #799aa1;
+  color: #960a05;
 }
 .payment-method ul .custom-control-label:before {
   top: 7px;
@@ -10236,7 +10244,7 @@ h6,
   font-size: 75px;
   line-height: 1.4;
   margin-right: 35px;
-  color: #799aa1;
+  color: #960a05;
 }
 .footer-subscribe .subscribe-title h3 {
   font-size: 35px;

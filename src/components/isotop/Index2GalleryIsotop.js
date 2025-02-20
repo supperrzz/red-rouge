@@ -1,27 +1,35 @@
-import Isotope from "isotope-layout";
+import { useEffect, useRef, useState } from "react";
 
-import { useEffect, useRef } from "react"; // import plugins if you need
 const Index2GalleryIsotop = () => {
-  // Isotope
   const isotope = useRef();
+  const [isClient, setIsClient] = useState(false);
+
   useEffect(() => {
-    setTimeout(() => {
-      isotope.current = new Isotope(".gallery-wrap", {
-        itemSelector: ".gallery-item",
-        //    layoutMode: "fitRows",
-        percentPosition: true,
-        masonry: {
-          columnWidth: ".gallery-item",
-        },
-        animationOptions: {
-          duration: 750,
-          easing: "linear",
-          queue: false,
-        },
+    setIsClient(true);
+    if (typeof window !== "undefined") {
+      import("isotope-layout").then((Isotope) => {
+        setTimeout(() => {
+          isotope.current = new Isotope.default(".gallery-wrap", {
+            itemSelector: ".gallery-item",
+            percentPosition: true,
+            masonry: {
+              columnWidth: ".gallery-item",
+            },
+            animationOptions: {
+              duration: 750,
+              easing: "linear",
+              queue: false,
+            },
+          });
+        }, 1000);
       });
-    }, 1000);
-    //     return () => isotope.current.destroy();
+    }
   }, []);
+
+  if (!isClient) {
+    return null;
+  }
+
   return (
     <section className="gallery-section bg-green text-white text-center pt-140 rpt-90 pb-120 rpb-70">
       <div className="container">
@@ -37,50 +45,50 @@ const Index2GalleryIsotop = () => {
       <div className="container-fluid">
         <div className="gallery-wrap">
           <div className="gallery-item wow fadeInUp delay-0-2s">
-            <img src="assets/images/projects/gallery-1.jpg" alt="Gallery" />
+            <img src="/assets/images/projects/project-1.jpg" alt="Facial Treatment" />
             <div className="gallery-overlay">
-              <a href="assets/images/projects/gallery-1.jpg">
-                <i className="fas fa-share" />
+              <a href="/assets/images/projects/project-1.jpg">
+                <i className="fas fa-expand" />
               </a>
             </div>
           </div>
           <div className="gallery-item wow fadeInUp delay-0-4s">
-            <img src="assets/images/projects/gallery-2.jpg" alt="Gallery" />
+            <img src="/assets/images/projects/project-2.jpg" alt="Massage Room" />
             <div className="gallery-overlay">
-              <a href="assets/images/projects/gallery-2.jpg">
-                <i className="fas fa-share" />
+              <a href="/assets/images/projects/project-2.jpg">
+                <i className="fas fa-expand" />
               </a>
             </div>
           </div>
           <div className="gallery-item big-item wow fadeInUp delay-0-6s">
-            <img src="assets/images/projects/gallery-3.jpg" alt="Gallery" />
+            <img src="/assets/images/projects/project-3.jpg" alt="Spa Interior" />
             <div className="gallery-overlay">
-              <a href="assets/images/projects/gallery-3.jpg">
-                <i className="fas fa-share" />
+              <a href="/assets/images/projects/project-3.jpg">
+                <i className="fas fa-expand" />
               </a>
             </div>
           </div>
           <div className="gallery-item wow fadeInUp delay-0-8s">
-            <img src="assets/images/projects/gallery-4.jpg" alt="Gallery" />
+            <img src="/assets/images/projects/project-4.jpg" alt="Body Treatment" />
             <div className="gallery-overlay">
-              <a href="assets/images/projects/gallery-4.jpg">
-                <i className="fas fa-share" />
+              <a href="/assets/images/projects/project-4.jpg">
+                <i className="fas fa-expand" />
               </a>
             </div>
           </div>
           <div className="gallery-item wow fadeInUp delay-0-6s">
-            <img src="assets/images/projects/gallery-5.jpg" alt="Gallery" />
+            <img src="/assets/images/projects/project-5.jpg" alt="Product Display" />
             <div className="gallery-overlay">
-              <a href="assets/images/projects/gallery-5.jpg">
-                <i className="fas fa-share" />
+              <a href="/assets/images/projects/project-5.jpg">
+                <i className="fas fa-expand" />
               </a>
             </div>
           </div>
           <div className="gallery-item wow fadeInUp delay-1-0s">
-            <img src="assets/images/projects/gallery-6.jpg" alt="Gallery" />
+            <img src="/assets/images/projects/project-6.jpg" alt="Wellness Center" />
             <div className="gallery-overlay">
-              <a href="assets/images/projects/gallery-6.jpg">
-                <i className="fas fa-share" />
+              <a href="/assets/images/projects/project-6.jpg">
+                <i className="fas fa-expand" />
               </a>
             </div>
           </div>

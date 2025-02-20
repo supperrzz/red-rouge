@@ -1,0 +1,167 @@
+In the context of coding a website for a brand, follow these steps for each interaction:
+
+1. User and Brand Identification:
+   - Assume you are interacting with default_user.
+   - If default_user is not identified, proactively attempt to do so.
+   - Identify the brand associated with the website.
+   - If the brand is not identified, proactively attempt to do so.
+
+2. Memory Retrieval:
+   - Start each chat by retrieving relevant information from your knowledge graph using `memory_read_graph` or `memory_search_nodes` and then say "Remembering..." referrencing a memory.
+   - Refer to your knowledge graph as "memory."
+
+3. Memory:
+   - Pay attention to new information related to:
+     a) User Identity (role, team, project, etc.)
+     b) Brand Identity (name, values, mission, etc.)
+     c) Coding Behaviors (coding style, frequent tasks, etc.)
+     d) Preferences (preferred tools, languages, etc.)
+     e) Project Goals (website features, brand guidelines, deadlines, etc.)
+     f) Collaborations (team members, stakeholders, etc.)
+
+4. Memory Update:
+   - Use a systematic approach for creating entities with a predictable naming convention:
+     a) Use snake_case format, such as "entity_type_entity_name" (e.g., "user_john_doe").
+     b) Include unique identifiers where necessary to avoid duplication.
+   - Efficiently check existing entities and relationships using `memory_search_nodes` and `memory_open_nodes`.
+   - Before creating or updating entities, reference existing knowledge to track available entities and relationships.
+   - If new information is gathered, update your memory by:
+     a) Using `memory_create_entities` to add new entities if they don't already exist.
+     b) Using `memory_create_relations` to establish connections between entities.
+     c) Using `memory_add_observations` to add new facts.
+     d) Always double-check if a reference exists before creating a new entity.
+   - Handle conflicting or duplicate information by verifying details and using `memory_delete_entities`, `memory_delete_relations`, or `memory_delete_observations` as needed.
+
+Snake_Case Naming Convention:
+
+1. Entity Type Prefix:
+   - Use a lowercase descriptor for the entity type (e.g., "user", "brand", "project").
+
+2. Entity Name:
+   - Use lowercase letters, separating words with underscores (e.g., "john_doe", "acme_corp").
+
+3. Unique Identifiers:
+   - Append unique identifiers if necessary to avoid duplication (e.g., "user_john_doe_01").
+
+Suggestions:
+
+1. Standardize entity type prefixes for all potential entities.
+2. Develop a list of common identifiers to ensure uniqueness.
+3. Create guidelines for exceptions or special cases in naming.
+
+Questions:
+
+1. What specific entity types should be included in the naming convention?
+2. How should unique identifiers be structured for different entity types?
+3. Are there any exceptions to using this naming convention?
+
+Remember, your options are:
+Option 1: Read the output and provide more info or answer one or more of the questions
+Option 2: Type "Use this prompt" and I will submit this as a query for you
+Option 3: Type "Restart" to restart this process from the beginning
+Option 4: Type "Quit" to end this script and go back to a regular ChatGPT session
+
+---
+
+In the context of building a website page, follow these steps for each interaction:
+
+# Web Page Development Process
+
+Follow each step below carefully, and only proceed to the next step when the step is completed.
+
+# Goal: Build a new page for the website that aligns with the brand identity.
+
+## Process Steps
+1. Discuss page structure and content.
+   - A new md file for the page is created in the Page Docs directory. this file will be used as a source of truth for the page. this file also includes a check list so that we can track what is needed to complete the page.
+2. Create a page skeleton using the page-sections.md file.
+   - A new file is created in the /pages directory for the page.
+3. Import each page section using the appropriate component. Reference the component name in the page-sections.md file.
+   - The page has all of the imported components.
+4. Proof read content to make sure it aligns with the brand identity. (check brand_red_rouge in memory)
+   - Content is aligned with the brand identity.
+5. Implement any additional functionality or styling as needed.
+   - Any additional functionality or styling is implemented as needed.
+6. Test the final page to ensure it works as intended.
+   - The page works as intended.
+7. Deploy the final page to the live website.
+   - The page is deployed to the live website.
+
+---
+
+This is a sample page MD file.
+
+# [Project Name] - [Page Name]
+
+This document serves as the source of truth for the [Version Number] version of the [Project Name] [Page Name].
+
+## Sections Overview
+
+### Hero Section (index2.js)
+- **Purpose**: Showcase key offerings.
+- **Content**: Highlight services and call-to-action.
+
+### About Section (index.js)
+- **Purpose**: Share brand story.
+- **Content**: Mission, values, and unique propositions.
+
+### Services Section (services.js)
+- **Purpose**: Display service categories.
+- **Content**: List main services offered.
+
+### Booking Section (booking.js)
+- **Purpose**: Facilitate appointments.
+- **Features**: Online booking and scheduling.
+
+### Products Section (index.js)
+- **Purpose**: Highlight products.
+- **Content**: Showcase featured items.
+
+### Feedback Section (about.js)
+- **Purpose**: Show client testimonials.
+- **Content**: Reviews and success stories.
+
+### Gallery Section (index2.js)
+- **Purpose**: Visual showcase.
+- **Content**: Photos of facilities and treatments.
+
+### Instagram Section (about.js)
+- **Purpose**: Social media engagement.
+- **Features**: Instagram feed and links.
+
+## Implementation Status
+
+- [ ] Basic page structure implemented
+- [ ] Page skeleton created
+- [ ] Page skeleton populated with components
+- [ ] Content aligned with brand identity
+- [ ] Additional functionality implemented
+- [ ] Responsive design implemented
+- [ ] Performance optimization implemented
+- [ ] SEO meta tags implemented
+- [ ] Page deployed to the live website
+
+---
+This is a sample page skeleton.
+
+# Sample Page Skeleton
+const SamplePage = () => {
+    return (
+        <Layout>
+            {/* Hero Section (index2.js) - Showcase luxury spa experience */}
+            {/* About Section (index.js) - Brand story and values */}
+            {/* Service Section (services.js) - Display main service categories */}
+            ...
+        </Layout>
+    );
+};
+export default SamplePage;
+
+--- 
+Instructions for importing a page section.
+1. Navigate to the page where you want to copy the section.
+2. Search for the comments that wraps the component. eg {/* Hero Section Start */} ... {/* Hero Section End */}
+3. Copy the component and paste it into the page.
+4. Add and configure the component as needed.
+5. Repeat steps 1-5 for each page section.
+---

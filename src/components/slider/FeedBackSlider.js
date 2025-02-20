@@ -122,8 +122,8 @@ export const FeedBackSliderWithArrow = () => {
       <div className="section-title-with-btn mb-15">
         <div className="section-title mb-15">
           <span className="bg-text">Feedback</span>
-          <span className="sub-title">Customer Testimonials</span>
-          <h2>Valuable Clients Feedback</h2>
+          <span className="sub-title">Client Reviews</span>
+          <h2>What Our Clients Say About Red Rouge</h2>
         </div>
         <div className="feedback-arrows">
           <button className="feedback-prev">
@@ -145,15 +145,13 @@ export const FeedBackSliderWithArrow = () => {
               </div>
             </div>
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptateme
-              accusantium dolore laudantium, totam rem aperiam eaque ipsa quae
-              abillo inventore veritatis et architecto beatae vitae
+              &quot;The Diamond Hydrafacial at Red Rouge completely transformed my skin! The attention to detail and personalized care was exceptional. My skin has never looked better, and the relaxing atmosphere made the experience even more enjoyable.&quot;
             </p>
             <div className="author-description">
-              <img src="assets/images/testimonials/author-1.jpg" alt="Author" />
+              <img src="assets/images/testimonials/author-1.jpg" alt="Sarah M." />
               <div className="description">
-                <h5>Michael L. Morre</h5>
-                <span>Joniour Manager</span>
+                <h5>Sarah M.</h5>
+                <span>Hydrafacial Client</span>
               </div>
             </div>
             <div className="for-border" />
@@ -167,15 +165,13 @@ export const FeedBackSliderWithArrow = () => {
               </div>
             </div>
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptateme
-              accusantium dolore laudantium, totam rem aperiam eaque ipsa quae
-              abillo inventore veritatis et architecto beatae vitae
+              &quot;I&apos;ve been getting massages for years, but the deep tissue massage at Red Rouge is on another level. The therapist really understood my problem areas and provided incredible relief. The ambiance and service are truly luxurious.&quot;
             </p>
             <div className="author-description">
-              <img src="assets/images/testimonials/author-2.jpg" alt="Author" />
+              <img src="assets/images/testimonials/author-2.jpg" alt="Michael R." />
               <div className="description">
-                <h5>Rodney B. Andre</h5>
-                <span>Joniour Manager</span>
+                <h5>Michael R.</h5>
+                <span>Massage Therapy Client</span>
               </div>
             </div>
             <div className="for-border" />
@@ -189,20 +185,18 @@ export const FeedBackSliderWithArrow = () => {
               </div>
             </div>
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptateme
-              accusantium dolore laudantium, totam rem aperiam eaque ipsa quae
-              abillo inventore veritatis et architecto beatae vitae
+              &quot;The medical weight loss program at Red Rouge has been life-changing. The staff is knowledgeable and supportive, and the results have exceeded my expectations. I feel healthier and more confident than ever!&quot;
             </p>
             <div className="author-description">
-              <img src="assets/images/testimonials/author-3.jpg" alt="Author" />
+              <img src="assets/images/testimonials/author-3.jpg" alt="Jennifer L." />
               <div className="description">
-                <h5>John C. Brookse</h5>
-                <span>Joniour Manager</span>
+                <h5>Jennifer L.</h5>
+                <span>Weight Loss Program Client</span>
               </div>
             </div>
             <div className="for-border" />
           </SwiperSlide>
-          <SwiperSlide className="feedback-item">
+          <SwiperSlide className="feedback-item wow fadeInUp delay-0-8s">
             <div className="quote-rating">
               <i className="fas fa-quote-left" />
               <div className="rating">
@@ -211,20 +205,18 @@ export const FeedBackSliderWithArrow = () => {
               </div>
             </div>
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptateme
-              accusantium dolore laudantium, totam rem aperiam eaque ipsa quae
-              abillo inventore veritatis et architecto beatae vitae
+              &quot;Their signature body scrub is absolutely amazing! Not only does it leave my skin incredibly soft, but the whole experience is so relaxing. The Red Rouge team really knows how to pamper their clients.&quot;
             </p>
             <div className="author-description">
-              <img src="assets/images/testimonials/author-1.jpg" alt="Author" />
+              <img src="assets/images/testimonials/author-4.jpg" alt="Emily W." />
               <div className="description">
-                <h5>Michael L. Morre</h5>
-                <span>Joniour Manager</span>
+                <h5>Emily W.</h5>
+                <span>Body Treatment Client</span>
               </div>
             </div>
             <div className="for-border" />
           </SwiperSlide>
-          <SwiperSlide className="feedback-item">
+          <SwiperSlide className="feedback-item wow fadeInUp delay-1-0s">
             <div className="quote-rating">
               <i className="fas fa-quote-left" />
               <div className="rating">
@@ -233,37 +225,13 @@ export const FeedBackSliderWithArrow = () => {
               </div>
             </div>
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptateme
-              accusantium dolore laudantium, totam rem aperiam eaque ipsa quae
-              abillo inventore veritatis et architecto beatae vitae
+              &quot;The PRP Microneedling facial gave me incredible results! My skin looks years younger and the recovery was much easier than expected. The staff was professional and made sure I was comfortable throughout the entire process.&quot;
             </p>
             <div className="author-description">
-              <img src="assets/images/testimonials/author-2.jpg" alt="Author" />
+              <img src="assets/images/testimonials/author-5.jpg" alt="Rachel K." />
               <div className="description">
-                <h5>Rodney B. Andre</h5>
-                <span>Joniour Manager</span>
-              </div>
-            </div>
-            <div className="for-border" />
-          </SwiperSlide>
-          <SwiperSlide className="feedback-item">
-            <div className="quote-rating">
-              <i className="fas fa-quote-left" />
-              <div className="rating">
-                <i className="fas fa-star" />
-                <span>5.0</span>
-              </div>
-            </div>
-            <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptateme
-              accusantium dolore laudantium, totam rem aperiam eaque ipsa quae
-              abillo inventore veritatis et architecto beatae vitae
-            </p>
-            <div className="author-description">
-              <img src="assets/images/testimonials/author-3.jpg" alt="Author" />
-              <div className="description">
-                <h5>John C. Brookse</h5>
-                <span>Joniour Manager</span>
+                <h5>Rachel K.</h5>
+                <span>Facial Treatment Client</span>
               </div>
             </div>
             <div className="for-border" />
@@ -296,29 +264,49 @@ export const FeedBackItemThree = () => {
         <Swiper {...props} className="feedback-wrap-three">
           <SwiperSlide className="feedback-item-three">
             <span className="feedback-text">
-              Sedut persiciatis unde omnis iste natus error sit voluptateme
-              accusantium dolore laudantium totam rem aperiam eaque ipsa quae
-              abillo inventore veritatis et arcitect beatae vitae
+              &quot;The Diamond Hydrafacial at Red Rouge completely transformed my skin! The attention to detail and personalized care was exceptional. My skin has never looked better, and the relaxing atmosphere made the experience even more enjoyable.&quot;
             </span>
             <div className="author-description">
-              <img src="assets/images/testimonials/author-1.jpg" alt="Author" />
+              <img src="assets/images/testimonials/author-1.jpg" alt="Sarah M." />
               <div className="description">
-                <h5>Michael L. Morre</h5>
-                <span>Joniour Manager</span>
+                <h5>Sarah M.</h5>
+                <span>Hydrafacial Client</span>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="feedback-item-three">
             <span className="feedback-text">
-              Aaperiam eaque ipsa quae abillo inventore veritatis et arcitect
-              beatae vitae Sedut persiciatis unde omnis iste natus error sit
-              voluptateme accusantium dolore laudantium totam rem
+              &quot;I&apos;ve been getting massages for years, but the deep tissue massage at Red Rouge is on another level. The therapist really understood my problem areas and provided incredible relief. The ambiance and service are truly luxurious.&quot;
             </span>
             <div className="author-description">
-              <img src="assets/images/testimonials/author-3.jpg" alt="Author" />
+              <img src="assets/images/testimonials/author-2.jpg" alt="Michael R." />
               <div className="description">
-                <h5>John C. Brookse</h5>
-                <span>Joniour Manager</span>
+                <h5>Michael R.</h5>
+                <span>Massage Therapy Client</span>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="feedback-item-three">
+            <span className="feedback-text">
+              &quot;The medical weight loss program at Red Rouge has been life-changing. The staff is knowledgeable and supportive, and the results have exceeded my expectations. I feel healthier and more confident than ever!&quot;
+            </span>
+            <div className="author-description">
+              <img src="assets/images/testimonials/author-3.jpg" alt="Jennifer L." />
+              <div className="description">
+                <h5>Jennifer L.</h5>
+                <span>Weight Loss Program Client</span>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="feedback-item-three">
+            <span className="feedback-text">
+              &quot;Their signature body scrub is absolutely amazing! Not only does it leave my skin incredibly soft, but the whole experience is so relaxing. The Red Rouge team really knows how to pamper their clients.&quot;
+            </span>
+            <div className="author-description">
+              <img src="assets/images/testimonials/author-4.jpg" alt="Emily W." />
+              <div className="description">
+                <h5>Emily W.</h5>
+                <span>Body Treatment Client</span>
               </div>
             </div>
           </SwiperSlide>

@@ -1,4 +1,6 @@
 .next/cache
 .next/export
-.next/
+.next
 # Output of 'next export'
+memory-mcp/
+node_modules/
