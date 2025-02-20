@@ -812,6 +812,7 @@ a.theme-btn.style-seven:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url(../images/preloader.gif);
+  background-size: 120px;
 }
 
 /* Pagination */
