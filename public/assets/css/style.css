@@ -4879,6 +4879,8 @@ h6,
 }
 
 .slider-single-item::before {
+  background-size: cover;
+  background-position: center;
   position: absolute;
   content: "";
   width: 100%;
@@ -4887,7 +4889,7 @@ h6,
   top: 0;
   left: 0;
   opacity: 0.4;
-  background-color: black;
+  background-color: #333;
 }
 @media only screen and (max-width: 767px) {
   .slider-single-item {

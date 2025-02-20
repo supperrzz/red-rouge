@@ -38,7 +38,6 @@ const Index4 = () => {
                 <Slider {...hero3Slider}>
                     <div
                         className="slider-single-item slider-single-item-1"
-                        style={{ backgroundImage: "url()" }}
                     >
                         <div className="container">
                             <span className="bg-text">Beauty & Wellness</span>
@@ -88,6 +87,29 @@ const Index4 = () => {
                             <span className="bg-text">Medical Services</span>
                             <span className="sub-title">Professional Care</span>
                             <h1>Medical Weight Loss & Body Sculpting</h1>
+                            <div className="slider-btn">
+                                <Link href="/booking">
+                                    <a className="theme-btn style-six">
+                                        Book Now <i className="fas fa-long-arrow-alt-right" />
+                                    </a>
+                                </Link>
+                                <Link href="/services">
+                                    <a className="theme-btn style-five">
+                                        Our services <i className="fas fa-long-arrow-alt-right" />
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="slider-single-item slider-single-item-4"
+                        style={{ backgroundImage: "url()" }}
+                    >
+                        <div className="slider-overlay"></div>
+                        <div className="container">
+                            <span className="bg-text">Spa Services</span>
+                            <span className="sub-title">Premium Spa Experience</span>
+                            <h1>Spa & Relaxation</h1>
                             <div className="slider-btn">
                                 <Link href="/booking">
                                     <a className="theme-btn style-six">
