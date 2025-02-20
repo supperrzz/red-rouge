@@ -321,7 +321,7 @@ const Index4 = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5">
-                            <div className="booding-three-content rmb-55">
+                            <div className="booking-three-content rmb-55">
                                 <div className="section-title mb-30">
                                     <span className="bg-text">Book</span>
                                     <span className="sub-title">Make Appointment</span>
@@ -337,9 +337,11 @@ const Index4 = () => {
                         </div>
                         <div className="col-lg-7">
                             <form
-                                onClick={(e) => e.preventDefault()}
-                                action="#"
-                                className="booking-from"
+                                onSubmit={(e) => {
+                                    e.preventDefault();
+                                    // Add form submission logic here
+                                }}
+                                className="booking-from bg-white p-4 rounded shadow-sm"
                             >
                                 <div className="row clearfix">
                                     <div className="col-sm-6">
@@ -378,9 +380,14 @@ const Index4 = () => {
                                             />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 mb-30">
-                                        <div className="form-group z-2">
-                                            <select name="services" id="services" required>
+                                    <div className="col-sm-6">
+                                        <div className="form-group">
+                                            <select 
+                                                name="services" 
+                                                id="services" 
+                                                className="form-control"
+                                                required
+                                            >
                                                 <option value="">Select Service</option>
                                                 <optgroup label="Facial Services">
                                                     <option value="acne-facial">Acne Facial</option>
@@ -430,9 +437,14 @@ const Index4 = () => {
                                             />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6 mb-30">
+                                    <div className="col-sm-6">
                                         <div className="form-group">
-                                            <select name="time" id="time" required>
+                                            <select 
+                                                name="time" 
+                                                id="time" 
+                                                className="form-control"
+                                                required
+                                            >
                                                 <option value="">Select Time</option>
                                                 <option value="9:00">9:00 AM</option>
                                                 <option value="10:00">10:00 AM</option>
@@ -446,7 +458,7 @@ const Index4 = () => {
                                             </select>
                                         </div>
                                     </div>
-                                    <div className="col-xl-12">
+                                    <div className="col-12">
                                         <div className="form-group mb-0">
                                             <button
                                                 type="submit"

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Cagliostro&display=swap');
 /*----------------------------------------------------------------------
     Template Name: Lezar - Beauty Salon HTML Template
     Template URI: https://webtend.net/demo/html/lezar/
@@ -200,7 +199,7 @@ textarea,
 .nice-select .current {
   font-weight: 600;
   color: #242424;
-  font-family: "Cagliostro", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .nice-select .list {
   width: 100%;
