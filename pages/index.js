@@ -481,7 +481,7 @@ const Index4 = () => {
             {/* Booking Section End */}
             
             {/* Products Section Start */}
-            <section className="products-section text-center pt-140 rpt-90 pb-115 rpb-65">
+            {/* <section className="products-section text-center pt-140 rpt-90 pb-115 rpb-65">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-9 col-md-10">
@@ -610,7 +610,7 @@ const Index4 = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             {/* Products Section End */}
             
             {/* Feedback Section Start */}
