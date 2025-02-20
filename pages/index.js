@@ -43,11 +43,11 @@ const Index4 = () => {
                         <div className="container">
                             <span className="bg-text">Beauty & Wellness</span>
                             <span className="sub-title">Welcome to Red Rouge</span>
-                            <h1 className="hero-title">Beauty & Wellness Day Spa</h1>
+                            <h1 className="hero-title">Premier Beauty & Wellness Day Spa</h1>
                             <div className="slider-btn">
                                 <Link href="/booking">
                                     <a className="theme-btn style-six">
-                                        Learn more <i className="fas fa-long-arrow-alt-right" />
+                                        Book Now <i className="fas fa-long-arrow-alt-right" />
                                     </a>
                                 </Link>
                                 <Link href="/services">
@@ -69,7 +69,7 @@ const Index4 = () => {
                             <div className="slider-btn">
                                 <Link href="/booking">
                                     <a className="theme-btn style-six">
-                                        Learn more <i className="fas fa-long-arrow-alt-right" />
+                                        Book Now <i className="fas fa-long-arrow-alt-right" />
                                     </a>
                                 </Link>
                                 <Link href="/services">
@@ -91,7 +91,7 @@ const Index4 = () => {
                             <div className="slider-btn">
                                 <Link href="/booking">
                                     <a className="theme-btn style-six">
-                                        Learn more <i className="fas fa-long-arrow-alt-right" />
+                                        Book Now <i className="fas fa-long-arrow-alt-right" />
                                     </a>
                                 </Link>
                                 <Link href="/services">

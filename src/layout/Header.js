@@ -232,13 +232,13 @@ const DefaultHeader = ({
                 </form>
               </div>
               {/* menu sidbar */}
-              <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
+              {/* <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
                 <button>
                   <span className="icon-bar" />
                   <span className="icon-bar" />
                   <span className="icon-bar" />
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -356,13 +356,13 @@ const Header1 = ({
                 </form>
               </div>
               {/* menu sidbar */}
-              <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
+              {/* <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
                 <button>
                   <span className="icon-bar" />
                   <span className="icon-bar" />
                   <span className="icon-bar" />
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -465,13 +465,13 @@ const Header2 = ({
                 </form>
               </div>
               {/* menu sidbar */}
-              <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
+              {/* <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
                 <button>
                   <span className="icon-bar" />
                   <span className="icon-bar" />
                   <span className="icon-bar" />
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

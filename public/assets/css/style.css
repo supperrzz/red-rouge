@@ -4859,7 +4859,7 @@ h6,
 
 .slider-single-item {
   z-index: 1;
-  min-height: 100vh;
+  min-height: 70vh;
   text-align: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -4870,6 +4870,12 @@ h6,
   padding-bottom: 150px;
   z-index: 1;
   position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+  .slider-single-item {
+    min-height: 60vh;
+  }
 }
 
 .slider-single-item::before {
@@ -4973,7 +4979,7 @@ h6,
   color: white;
   font-size: 3.5rem;
   line-height: 1.08;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 @media only screen and (max-width: 767px) {
   .slider-single-item h1 {
