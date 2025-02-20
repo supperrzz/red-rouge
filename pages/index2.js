@@ -14,6 +14,7 @@ const Index2GalleryIsotop = dynamic(
 const index2 = () => {
   return (
     <Layout header={2} noFooter noPageBanner>
+      {/* Hero Section Start */}
       <section className="hero-section-two rel z-1 bg-green">
         <div className="container">
           <div className="row align-items-center">
@@ -765,6 +766,7 @@ const index2 = () => {
           </div>
         </div>
       </section>
+      {/* Blog Section End */}
       <Footer1 />
     </Layout>
   );

@@ -8,7 +8,7 @@ const About = () => {
   return (
     <Layout pageName={"About Us"}>
       <PageBanner pageName={"About Us"} />
-
+      {/* About Section Start */}
       <section className="about-page-section rel z-2 pt-140 rpt-90">
         <div className="container">
           <div className="row mb-55">
@@ -302,6 +302,7 @@ const About = () => {
           </a>
         </div>
       </div>
+      {/* Instagram Section End */}
     </Layout>
   );
 };

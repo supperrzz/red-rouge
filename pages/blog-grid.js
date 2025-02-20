@@ -326,6 +326,7 @@ const BlogGrid = () => {
           </nav>
         </div>
       </section>
+      {/* Blog Grid Section End */}
     </Layout>
   );
 };

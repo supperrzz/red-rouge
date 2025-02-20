@@ -7,6 +7,7 @@ const Testimonials = () => {
   return (
     <Layout pageName={"Testimonials"}>
       <PageBanner pageName={"Testimonials"} textAlign={"center"} />
+      {/* Feedback Section Start */}
       <section className="feedback-section-row-two rel pt-135 rpt-85 pb-135 rpb-85">
         <div className="container">
           <div className="section-title-with-btn mb-15">
@@ -332,7 +333,7 @@ const Testimonials = () => {
         </div>
       </section>
       {/* Feedback Section End */}
-      {/* Feedback Section Start */}
+      {/* Feedback Section 2 Start */}
       <div className="feedback-section rel z-1 bg-butter">
         <div className="container-fluid p-0">
           <div className="row">
@@ -381,7 +382,7 @@ const Testimonials = () => {
           />
         </div>
       </div>
-      {/* Feedback Section End */}
+      {/* Feedback Section 2 End */}
       {/* Testimonial Three Area Start */}
       <section className="testimonial-three-area rel z-1 pt-140 rpt-90 pb-150 rpb-100">
         <div className="container">
@@ -589,6 +590,7 @@ const Testimonials = () => {
           className="testimonial-circle"
         />
       </section>
+      {/* Testimonial Three Area End */}
     </Layout>
   );
 };

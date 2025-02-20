@@ -510,6 +510,7 @@ const Blog = () => {
           </div>
         </div>
       </section>
+      {/* Blog Grid Section End */}
     </Layout>
   );
 };

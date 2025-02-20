@@ -237,6 +237,7 @@ const Booking = () => {
           </form>
         </div>
       </section>
+      {/* Booking Section End */}
     </Layout>
   );
 };

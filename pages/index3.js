@@ -13,7 +13,7 @@ const Home1ProjectIsotop = dynamic(
 const Index = () => {
   return (
     <Layout pageName={"Home One"} header={1}>
-      {/* Hero Section Start */}
+      {/* Hero Section Stqart */}
       <section className="hero-section rel z-1 bg-butter">
         <div className="container">
           <div className="row align-items-center">
@@ -166,7 +166,7 @@ const Index = () => {
       <Home1ProjectIsotop />
       {/* Project Section End */}
       {/* Feedback Section Start */}
-      <div className="feedback-section rel z-1 bg-butter">
+      <section className="feedback-section rel z-1 bg-butter">
         <div className="container-fluid p-0">
           <div className="row">
             <div className="col-xl-6">
@@ -192,7 +192,7 @@ const Index = () => {
             alt="Feedback Leaf"
           />
         </div>
-      </div>
+      </section>
       {/* Feedback Section End */}
       {/* Products Section Start */}
       <section className="products-section text-center pt-140 rpt-90 pb-115 rpb-65">

@@ -11,7 +11,7 @@ const Team = () => {
   return (
     <Layout pageName={"Service Details"}>
       <PageBanner pageName={"Team Members"} textAlign={"center"} />
-
+      {/* Team Section Start */}
       <section className="team-section rel z-1 py-150 rpy-100">
         <div className="container">
           <div className="row align-items-center">

@@ -8,6 +8,7 @@ const Contact = () => {
         bgText="Contact"
         textAlign={"center"}
       />
+      {/* Contact Info Section Start */}
       <section className="contact-info-section pt-150 rpt-100 pb-120 rpb-70">
         <div className="container">
           <div className="row justify-content-center">
@@ -127,6 +128,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      {/* Contact Form End */}
     </Layout>
   );
 };

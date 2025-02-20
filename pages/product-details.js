@@ -523,6 +523,7 @@ const ProductDetails = () => {
           </div>
         </div>
       </section>
+      {/* Related Product End */}
     </Layout>
   );
 };

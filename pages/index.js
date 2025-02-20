@@ -5,7 +5,7 @@ import Layout from "../src/layout/Layout";
 import { hero3Slider } from "../src/sliderProps";
 const index3 = () => {
   return (
-    <Layout header={3} noPageBanner>
+    <Layout noPageBanner>
       {/*End Hidden Sidebar */}
       {/* Slider Section Start */}
       <div className="slider-section">
@@ -684,6 +684,7 @@ const index3 = () => {
           </div>
         </div>
       </section>
+      {/* Blog Section End */}
     </Layout>
   );
 };

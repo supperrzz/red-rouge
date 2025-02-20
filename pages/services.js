@@ -10,6 +10,7 @@ const Services = () => {
         bgText="Services"
         textAlign={"center"}
       />
+      {/* Service Section Start */}
       <section className="services-page pt-140 rpt-90 pb-90 rpb-40">
         <div className="container">
           <div className="row justify-content-center">
@@ -243,6 +244,7 @@ const Services = () => {
           <i className="fas fa-play" />
         </a>
       </div>
+      {/* Video Section End */}
     </Layout>
   );
 };

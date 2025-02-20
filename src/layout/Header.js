@@ -140,12 +140,11 @@ const DefaultHeader = ({
           <div className="header-top">
             <ul>
               <li>
-                <i className="far fa-clock" /> <span>Opening hours :</span>{" "}
-                Manday - friday, 08am - 05pm
+                <i className="far fa-clock" /> <span>Open hours:</span>{" "}
+                Monday - Friday, 8am - 5pm
               </li>
               <li>
-                <i className="flaticon-locations" /> <span>Address :</span> 55
-                Main Street, 2nd Block, New York
+                <i className="flaticon-locations" /> <span>Address:</span> 1750 California Ave STE 110, Corona, CA 92881
               </li>
             </ul>
           </div>

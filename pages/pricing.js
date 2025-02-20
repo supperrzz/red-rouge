@@ -10,6 +10,7 @@ const Pricing = () => {
         pageTitle={"Pricing Package"}
         textAlign={"center"}
       />
+      {/* Pricing Section Start */}
       <section className="pricing-section pricing-page rel z-1 pt-140 rpt-90 mb-120 rmb-70">
         <div className="container">
           <div className="row justify-content-center">
@@ -309,6 +310,7 @@ const Pricing = () => {
           className="circle"
         />
       </section>
+      {/* Pricing Section End */}
     </Layout>
   );
 };

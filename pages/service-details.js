@@ -26,6 +26,7 @@ const ServiceDetails = () => {
         bgText="Portfolio"
         textAlign={"center"}
       />
+      {/* Service Details Section Start */}
       <section className="service-details py-150 rpy-100">
         <div className="container">
           <div className="row">
@@ -261,7 +262,7 @@ const ServiceDetails = () => {
           </div>
         </div>
       </section>
-      {/* Services Details End */}
+      {/* Services Details Section End */}
     </Layout>
   );
 };

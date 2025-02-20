@@ -9,6 +9,7 @@ const PortfolioDetails = () => {
         bgText="portfolio"
         textAlign={"center"}
       />
+      {/* Portfolio Details Section Start */}
       <section className="portfolio-details pt-150 rpt-100">
         <div className="container">
           <div className="portfolio-details-image mb-30 wow fadeInUp delay-0-2s">
@@ -228,6 +229,7 @@ const PortfolioDetails = () => {
           </div>
         </div>
       </section>
+      {/* Related Project End */}
     </Layout>
   );
 };

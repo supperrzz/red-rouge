@@ -16,6 +16,7 @@ const Shop = () => {
   return (
     <Layout pageName={"Shop Grid"}>
       <PageBanner pageName={"Shop Grid"} textAlign={"center"} />
+      {/* Shop Grid Section Start */}
       <section className="shop-grid-area py-150 rpy-100">
         <div className="container">
           <div className="row">
@@ -467,6 +468,7 @@ const Shop = () => {
           </div>
         </div>
       </section>
+      {/* Shop Grid Section End */}
     </Layout>
   );
 };

@@ -32,7 +32,7 @@ const Faqs = () => {
   return (
     <Layout pageName={"Service Details"}>
       <PageBanner pageName={"FAQs"} textAlign={"center"} />
-
+      {/* Faq Section Start */}
       <section
         className="faq-page pt-140 pb-150 rpt-90 rpb-100"
         id="faq-accordion"
@@ -97,7 +97,7 @@ const Faqs = () => {
           </div>
         </Accordion>
       </section>
-      {/* FAQ Page End */}
+      {/* FAQ Section End */}
       {/* Video Section Start */}
       <div
         className="video-section-two wow fadeInUp delay-0-2s"
