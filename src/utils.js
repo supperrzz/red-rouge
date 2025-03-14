@@ -54,7 +54,7 @@ export const activeSkillProgress = () => {
     skillBarText.innerHTML = `${percent}%`;
     if (skillTop < triggerBottom) {
       bar.style.width = `${percent}%`;
-      bar.style.backgroundColor = `#960a05`;
+      bar.style.backgroundColor = `#B70704`;
       barContainer.classList.add("open");
     } else {
       bar.style.width = `0%`;

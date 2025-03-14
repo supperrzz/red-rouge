@@ -41,9 +41,20 @@
 .slider-single-item-1,
 .slider-single-item-2,
 .slider-single-item-3 {
-  background: url("");
+  background-image: url(/assets/images/news/blog-list2.jpg);
   background-size: cover;
   position: relative;
+  background-position: center;
+}
+
+.slider-single-item-2 {
+  background-image: url(/assets/images/news/blog-list1.jpg);
+}
+.slider-single-item-3 {
+  background-image: url(/assets/images/news/blog-list3.jpg);
+}
+.slider-single-item-4 {
+  background-image: url(/assets/images/news/blog-list4.jpg);
 }
 
 .slider-single-item .container {
@@ -91,7 +102,7 @@ a.thumb-item.nav-item.nav-link {
 }
 .product-information-tab li a.nav-link:hover,
 .product-information-tab li a.nav-link.active {
-  border-bottom: 2px solid #960a05 !important;
+  border-bottom: 2px solid #B70704 !important;
 }
 /* image popup */
 img.mfp-img {

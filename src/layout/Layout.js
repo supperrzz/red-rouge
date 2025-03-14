@@ -40,7 +40,7 @@ const Layout = ({
           rel="stylesheet"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;500;600;700&family=Open+Sans&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;700&display=swap"
           rel="stylesheet"
         />
       </Head>{" "}

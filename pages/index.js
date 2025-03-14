@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Layout from "../src/layout/Layout";
 import Link from "next/link";
 import Slider from "react-slick";
@@ -9,6 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Index2GalleryIsotop from "../src/components/isotop/Index2GalleryIsotop";
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
+import PopupModal from '../src/components/PopupModal';
 
 // Dynamically import heavy components
 const DynamicGalleryIsotop = dynamic(() => import("../src/components/isotop/Index2GalleryIsotop"), {
@@ -20,6 +21,22 @@ const DynamicGalleryIsotop = dynamic(() => import("../src/components/isotop/Inde
 SwiperCore.use([Autoplay, Navigation]);
 
 const Index4 = () => {
+    const [showModal, setShowModal] = useState(false);
+
+    useEffect(() => {
+        // Show modal after 5 seconds
+        const timer = setTimeout(() => {
+            setShowModal(true);
+        }, 5000);
+
+        // Clean up timer on component unmount
+        return () => clearTimeout(timer);
+    }, []);
+
+    const closeModal = () => {
+        setShowModal(false);
+    };
+
     return (
         <Layout>
             <Head>
@@ -32,18 +49,27 @@ const Index4 = () => {
                 <meta property="og:image" content="/assets/images/slider/slider1.jpg" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <link rel="canonical" href="https://redrougebeautywellness.com" />
+                <link rel="stylesheet" href="/assets/css/popup-modal.css" />
             </Head>
+
+            {/* Popup Modal */}
+            <PopupModal isOpen={showModal} onClose={closeModal} />
+
             {/* Slider Section Start */}
             <div className="slider-section">
                 <Slider {...hero3Slider}>
                     <div
                         className="slider-single-item slider-single-item-1"
+                        style={{
+                            background: `url(/assets/images/news/blog-list1.jpg)`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat"
+                        }}
                     >
                         <div className="container">
-                            <span className="bg-text">Beauty & Wellness</span>
-                            <span className="sub-title">Welcome to Red Rouge</span>
-                            <h1 className="hero-title">Premier Beauty & Wellness Day Spa</h1>
-                            <div className="slider-btn">
+                            <img style={{ width: "500px", margin: "0 auto" }} src="/assets/images/logos/logo-2.png" />
+                            {/* <div className="slider-btn">
                                 <Link href="/booking">
                                     <a className="theme-btn style-six">
                                         Book Now <i className="fas fa-long-arrow-alt-right" />
@@ -54,12 +80,17 @@ const Index4 = () => {
                                         Our services <i className="fas fa-long-arrow-alt-right" />
                                     </a>
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div
                         className="slider-single-item slider-single-item-2"
-                        style={{ backgroundImage: "url()" }}
+                        style={{ 
+                            background: "url(/assets/images/news/blog-list1.jpg)",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat"
+                        }}
                     >
                         <div className="container">
                             <span className="bg-text">Facial Services</span>
@@ -81,7 +112,12 @@ const Index4 = () => {
                     </div>
                     <div
                         className="slider-single-item slider-single-item-3"
-                        style={{ backgroundImage: "url()" }}
+                        style={{ 
+                            backgroundImage: "url(/assets/images/news/blog-list1.jpg)",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat"
+                        }}
                     >
                         <div className="container">
                             <span className="bg-text">Medical Services</span>
@@ -103,7 +139,12 @@ const Index4 = () => {
                     </div>
                     <div
                         className="slider-single-item slider-single-item-4"
-                        style={{ backgroundImage: "url()" }}
+                        style={{ 
+                            backgroundImage: "url(/assets/images/news/news-2.jpg)",
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat"
+                        }}
                     >
                         <div className="slider-overlay"></div>
                         <div className="container">
@@ -161,7 +202,7 @@ const Index4 = () => {
                         <div className="col-lg-4 col-sm-6">
                             <div className="about-offer-item">
                                 <img
-                                    src="assets/images/about/about-offer1.jpg"
+                                    src="assets/images/projects/project-3.jpg"
                                     alt="Facial Services"
                                 />
                                 <div className="about-offer-content">
@@ -174,7 +215,7 @@ const Index4 = () => {
                         <div className="col-lg-4 col-sm-6">
                             <div className="about-offer-item">
                                 <img
-                                    src="assets/images/about/about-offer2.jpg"
+                                    src="assets/images/services/service-4.jpg"
                                     alt="Body Treatments"
                                 />
                                 <div className="about-offer-content">
@@ -187,7 +228,7 @@ const Index4 = () => {
                         <div className="col-lg-4 col-sm-6">
                             <div className="about-offer-item">
                                 <img
-                                    src="assets/images/about/about-offer3.jpg"
+                                    src="/assets/images/news/blog-list3-vert.jpg"
                                     alt="Medical Services"
                                 />
                                 <div className="about-offer-content">
@@ -202,15 +243,19 @@ const Index4 = () => {
             </section>
             {/* About Section End */}
             
-            {/* Video Section Start */}
-            <div className="video-section-two wow fadeInUp delay-0-2s"
-                style={{ backgroundImage: "url(-video.jpg)" }}>
-                <a href="https://www.youtube.com/watch?v=9Y7ma241N8k" 
-                    className="mfp-iframe video-play">
-                    <i className="fas fa-play" />
-                </a>
-            </div>
-            {/* Video Section End */}
+      {/* Video Section Start */}
+      <div
+        className="video-section-two wow fadeInUp delay-0-2s"
+        style={{ backgroundImage: "url(assets/images/video/video-bg.jpg)" }}
+      >
+        <a
+          href="https://www.youtube.com/watch?v=9Y7ma241N8k"
+          className="mfp-iframe video-play"
+        >
+          <i className="fas fa-play" />
+        </a>
+      </div>
+      {/* Video Section End */}
             
             {/* Services Section Start */}
             <section className="services-page pt-140 rpt-90 pb-90 rpb-40">
@@ -224,9 +269,9 @@ const Index4 = () => {
                                     alt="Leaf"
                                 />
                                 <span className="sub-title">Our Services</span>
-                                <h3>
+                                <p>
                                     Discover our curated collection of premium beauty and wellness services. Experience a wide range of luxurious treatments, expert care, and personalized attention.
-                                </h3>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -239,7 +284,7 @@ const Index4 = () => {
                                     <h5>
                                         <Link href="/service-details">Facial Services</Link>
                                     </h5>
-                                    <p>Luxury facials, microdermabrasion, and premium hydrafacials</p>
+                                    <p>Facials, microdermabrasion, and premium hydrafacials</p>
                                     <Link href="/service-details">
                                         <a className="read-more">
                                             read more <i className="fas fa-long-arrow-alt-right" />
@@ -307,7 +352,7 @@ const Index4 = () => {
                                     <h5>
                                         <Link href="/service-details">Waxing Services</Link>
                                     </h5>
-                                    <p>Full-service waxing for face and body</p>
+                                    <p>Luxury full-service waxing for hair, face, and body</p>
                                     <Link href="/service-details">
                                         <a className="read-more">
                                             read more <i className="fas fa-long-arrow-alt-right" />

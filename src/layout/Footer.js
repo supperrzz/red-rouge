@@ -61,21 +61,21 @@ const Footer = () => {
                   <i className="fas fa-map-marker-alt" />
                   <div className="info-content">
                     <h5>Location</h5>
-                    <p>523 Main Street, New York</p>
+                    <p>1750 California Ave STE 110 Corona, CA 92881</p>
                   </div>
                 </li>
                 <li>
                   <i className="fas fa-phone-alt" />
                   <div className="info-content">
-                    <h5>Hotline</h5>
-                    <p>Call : +012 (345) 6789</p>
+                    <h5>Phone</h5>
+                    <p>(951) 475-7090</p>
                   </div>
                 </li>
                 <li>
                   <i className="far fa-comment" />
                   <div className="info-content">
                     <h5>Email</h5>
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:support@redrougebeauty.com">support@redrougebeauty.com</a>
                   </div>
                 </li>
               </ul>
@@ -131,7 +131,7 @@ const Footer = () => {
               <a href="#">Privacy</a>
             </li>
           </ul>
-          <p>© 2022 Lezar, All Rights Reserved</p>
+          <p>© 2025 Red Rouge, All Rights Reserved</p>
         </div>
       </div>
     </footer>

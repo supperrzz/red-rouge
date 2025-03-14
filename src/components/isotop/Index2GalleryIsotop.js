@@ -37,7 +37,7 @@ const Index2GalleryIsotop = () => {
           <div className="col-xl-8 col-lg-9 col-md-10">
             <div className="section-title mb-65">
               <span className="bg-text">gallery</span>
-              <h2>We Have Done Lot’s Of Projects Take a Look Our Gallery</h2>
+              <h2>Gallery</h2>
             </div>
           </div>
         </div>

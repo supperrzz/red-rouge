@@ -63,7 +63,7 @@ export default Header;
 
 const Menus = () => {
   return (
-    <ul className="navigation clearfix d-none d-lg-flex">
+    <ul className="navigation clearfix d-none d-lg-flex py-20">
       {/* <li className="dropdown">
         <a href="#">Home</a>
         <ul>
@@ -102,24 +102,24 @@ const Menus = () => {
         </div>
       </li> */}
       <li className="dropdown">
-        <a href="#">blog</a>
+        {/* <a href="#">blog</a> */}
         <ul>
           {/* <Blog /> */}
         </ul>
-        <div className="dropdown-btn">
+        {/* <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
-        </div>
+        </div> */}
       </li>
       <li className="dropdown">
-        <a href="#">shop</a>
+        {/* <a href="#">shop</a> */}
         <ul>
           {/* <Shop /> */}
         </ul>
-        <div className="dropdown-btn">
+        {/* <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />
-        </div>
+        </div> */}
       </li>
-      <Contact />
+      {/* <Contact /> */}
     </ul>
   );
 };
@@ -157,7 +157,7 @@ const DefaultHeader = ({
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img src="http://fpoimg.com/50x50?text=Logo" />
+                  <img src="/assets/images/logos/logo-2.png" />
                   {/* <img
                     src="assets/images/logos/color-logo.png"
                     alt="Logo"
@@ -185,7 +185,7 @@ const DefaultHeader = ({
                   </button>
                   <div className="mobile-logo p-15 m-auto">
                     <Link href="/">
-                      <img src="http://fpoimg.com/50x50?text=Logo" />
+                      <img src="/assets/images/logos/logo-2.png" />
                       {/* <img
                         src="assets/images/logos/logo.png"
                         alt="Logo"
@@ -208,9 +208,9 @@ const DefaultHeader = ({
             </div>
             {/* Menu Button */}
             <div className="menu-icons">
-              <button className="cart">
+              {/* <button className="cart">
                 <i className="fas fa-shopping-cart" />
-              </button>
+              </button> */}
               {/* Nav Search */}
               <div className="nav-search py-15">
                 <button
@@ -281,7 +281,7 @@ const Header1 = ({
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img src="http://fpoimg.com/50x50?text=Logo" />
+                  <img src="/assets/images/logos/logo-2.png" />
                   {/* <img
                     src="assets/images/logos/logo.png"
                     alt="Logo"
@@ -309,7 +309,7 @@ const Header1 = ({
                   </button>
                   <div className="mobile-logo p-15 m-auto">
                     <Link href="/">
-                      <img src="http://fpoimg.com/50x50?text=Logo" />
+                      <img src="/assets/images/logos/logo-2.png" />
                       {/* <img
                         src="assets/images/logos/logo.png"
                         alt="Logo"
@@ -390,7 +390,7 @@ const Header2 = ({
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img src="http://fpoimg.com/50x50?text=Logo" />
+                  <img src="/assets/images/logos/logo-2.png" />
                   {/* <img
                     src="assets/images/logos/white-logo.png"
                     alt="Logo"
@@ -418,7 +418,7 @@ const Header2 = ({
                   </button>
                   <div className="mobile-logo p-15 m-auto">
                     <Link href="/">
-                      <img src="http://fpoimg.com/50x50?text=Logo" />
+                      <img src="/assets/images/logos/logo-2.png" />
                       {/* <img
                         src="assets/images/logos/white-logo.png"
                         alt="Logo"
@@ -498,7 +498,7 @@ const Header3 = ({
             <div className="logo-outer">
               <div className="logo">
                 <Link href="/">
-                  <img src="http://fpoimg.com/50x50?text=Logo" />
+                  <img src="/assets/images/logos/logo-2.png" />
                   {/* <img
                     src="assets/images/logos/white-logo.png"
                     alt="Logo"
@@ -526,7 +526,7 @@ const Header3 = ({
                   </button>
                   <div className="mobile-logo p-15 m-auto">
                     <Link href="/">
-                      <img src="http://fpoimg.com/50x50?text=Logo" />
+                      <img src="/assets/images/logos/logo-2.png" />
                       {/* <img
                         src="assets/images/logos/white-logo.png"
                         alt="Logo"
