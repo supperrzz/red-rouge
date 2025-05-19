@@ -26,7 +26,7 @@ const Layout = ({
     <Fragment>
       <Head>
         {/* <!--====== Title ======--> */}
-        <title>Lezar - Beauty Salon React NextJS Template || {pageName}</title>
+        <title>Red Rouge Beauty & Wellness || {pageName}</title>
         {/* <!--====== Favicon Icon ======--> */}
         <link
           rel="shortcut icon"
@@ -34,7 +34,6 @@ const Layout = ({
           type="image/x-icon"
         />
         {/* <!--====== Google Fonts ======--> */}
-
         <link
           href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
@@ -42,6 +41,14 @@ const Layout = ({
         <link
           href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;700&display=swap"
           rel="stylesheet"
+        />
+        {/* Font Awesome */}
+        <link 
+          rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+          crossOrigin="anonymous" 
+          referrerPolicy="no-referrer" 
         />
       </Head>{" "}
       <VideoPopup />

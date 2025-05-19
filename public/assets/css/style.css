@@ -4619,24 +4619,36 @@ h6,
   letter-spacing: -3px;
   text-transform: uppercase;
 }
+.hero-content h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
 @media only screen and (max-width: 1500px) {
   .hero-content h1 {
-    font-size: 75px;
+    font-size: 40px;
   }
 }
 @media only screen and (max-width: 1199px) {
   .hero-content h1 {
-    font-size: 65px;
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .hero-content h1 {
+    font-size: 32px;
   }
 }
 @media only screen and (max-width: 767px) {
   .hero-content h1 {
-    font-size: 50px;
+    font-size: 28px;
   }
 }
 @media only screen and (max-width: 575px) {
   .hero-content h1 {
-    font-size: 40px;
+    font-size: 24px;
+    letter-spacing: -0.5px;
   }
 }
 
@@ -7422,7 +7434,7 @@ h6,
 .category-section .category-item {
   margin-left: 15px;
   margin-right: 15px;
-  width: calc(20% - 30px);
+  width: calc(33.33% - 30px);
 }
 @media only screen and (max-width: 1500px) {
   .category-section .category-item {
